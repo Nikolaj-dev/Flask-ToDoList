@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container">
+<form class="form-signin p-3" method="POST">
+    {{ form.hidden_tag() }}
+
+    {{ form.email.label(for="exampleInputEmail1") }}
+    {{ form.email(class = 'form-control', type="email") }}
+    <br>
+    {{ form.password.label(for="exampleInputPassword1") }}
+    {{ form.password(class = 'form-control', type="password") }}
+    <br>
+    {{ form.submit(type="submit", class="btn btn-primary") }}
+</form>
+</div>
+{% for message in get_flashed_messages() %}
+<div class="alert alert-danger container" role="alert">
+<p class="text-center">{{ message }}</p>
+</div>
+{% endfor %}
+
+
+
+{% endblock %}
