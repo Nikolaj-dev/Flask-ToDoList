@@ -4,7 +4,7 @@ from app.config import Config
 from flask_login import LoginManager
 
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder="static")
 app.config.from_object(Config)
 db = SQLAlchemy(app)
 login_manager = LoginManager()
@@ -13,4 +13,3 @@ login_manager.login_view = 'login'
 
 
 from app import routes, models
-

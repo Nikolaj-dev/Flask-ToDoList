@@ -9,6 +9,6 @@ class LoginForm(FlaskForm):
     submit = SubmitField('Submit')
 
 
-class TaskForm(FlaskForm):
+class AddTaskForm(FlaskForm):
     task = StringField('Add a task', validators=[DataRequired()])
     submit = SubmitField('Submit')
