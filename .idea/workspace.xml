@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2891261-e5d5-4a8e-a3d5-6cb44395e731" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore/.idea/Flask-ToDoList.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_server.py" afterDir="false" />
-    </list>
+    <list default="true" id="d2891261-e5d5-4a8e-a3d5-6cb44395e731" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
